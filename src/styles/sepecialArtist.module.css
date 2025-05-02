@@ -1,0 +1,22 @@
+.special_artist {
+	background-color: var(--second-color);
+}
+.w_bg {
+	background-color: #fff;
+}
+
+.dateOfBirth {
+	font-size: 0.9rem;
+	color: var(--second-font-color);
+}
+.artistInfo {
+	line-height: 2.3;
+}
+.badge {
+	background-color: var(--main-color);
+	color: #fff;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	border-radius: 30px;
+}

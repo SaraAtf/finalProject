@@ -1,0 +1,25 @@
+:root {
+	--main-color: #2a2d5f;
+	--second-color: #eef0f5;
+	--main-font: "El Messiri";
+	--second-font: "cairo";
+	--footer-color: #111827;
+	--second-font-color: #74767a;
+}
+
+body {
+	direction: rtl;
+	font-family: "cairo";
+}
+.navbar-brand,
+.isActive {
+	font-weight: bolder !important;
+	color: var(--main-color);
+}
+
+.sectionTitle {
+	font-weight: bolder !important;
+	color: var(--main-color);
+	font-size: 1.5rem;
+	font-family: var(--main-font);
+}
