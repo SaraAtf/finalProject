@@ -1,9 +1,14 @@
 
+import { artists } from '../models/artistsList'
+import { SharedSection } from '../shared'
+import { ArtistInfoCard } from './ArtistInfoCard'
+
 export function MostPopular() {
     return (
-        <div>
-
-            Most Popular
-        </div>
+        <SharedSection title={'الاكثر شهره'}>
+            <div className='artists d-flex justify-content-between flex-wrap'>
+                {artists.map( ( artist ) => <ArtistInfoCard key={artist.id} {...artist} /> )}
+            </div>
+        </SharedSection>
     )
 }

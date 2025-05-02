@@ -1,6 +1,6 @@
 import styled from "styled-components";
-const bgFun = ( { varient } ) => varient == 'outline' ? '#fff' : '#2a2d5f';
-const colorFun = ( { varient } ) => varient == 'outline' ? '#2a2d5f' : '#fff';
+const bgFun = ( { $varient } ) => $varient == 'outline' ? '#fff' : '#2a2d5f';
+const colorFun = ( { $varient } ) => $varient == 'outline' ? '#2a2d5f' : '#fff';
 const SharedButton = styled.button`
     background-color: ${bgFun};
     color: ${colorFun};

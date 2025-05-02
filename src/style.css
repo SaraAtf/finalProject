@@ -17,9 +17,75 @@ body {
 	color: var(--main-color);
 }
 
+.w_bg {
+	background-color: #fff;
+}
 .sectionTitle {
 	font-weight: bolder !important;
 	color: var(--main-color);
 	font-size: 1.5rem;
 	font-family: var(--main-font);
+}
+.special_artist {
+	background-color: var(--second-color);
+}
+
+.articleCard {
+	box-shadow: 0px 0px 5px #838383;
+	transition: all 0.5s ease-in-out;
+}
+.articleCard:hover {
+	box-shadow: 0px 0px 8px #838383;
+}
+.article_img {
+	width: 100%;
+	height: 200px;
+}
+.p-color {
+	color: #7c7c7c;
+}
+
+.card_font {
+	font-size: 0.9rem;
+}
+
+.titleFont {
+	font-family: var(--main-font);
+}
+.readMore {
+	/* text-decoration: none; */
+	color: var(--main-color);
+	font-weight: bold;
+	font-family: var(--main-font);
+}
+
+.footer {
+	background-color: var(--footer-color);
+}
+
+.footer ul {
+	list-style: none;
+	padding: 0;
+}
+.footer ul li {
+	padding: 0.75rem 0px;
+}
+.footer_font {
+	color: #ddd;
+}
+.footer ul a {
+	text-decoration: none;
+	color: #ddd;
+	font-size: 0.9rem;
+	transition: all 0.5s ease-in-out;
+}
+.footer ul a:hover {
+	color: #fff;
+	font-size: 1.1rem;
+}
+
+.artist_profile_img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
 }
