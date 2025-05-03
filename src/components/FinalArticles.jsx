@@ -10,7 +10,7 @@ export function FinalArticles() {
                 {articles.map( article =>
                 (
                     <div key={article.id} className="col-md-3">
-                        <ArticleCard {...article} />
+                        <ArticleCard {...article} className={'w_bg'} />
                     </div>
                 )
                 )}

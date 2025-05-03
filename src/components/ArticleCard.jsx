@@ -1,13 +1,26 @@
 import React from 'react'
+import { SharedButton } from '../styledComponents/SharedButton'
 
-export function ArticleCard( { imgSrc, description, date, ...props } ) {
+export function ArticleCard( { imgSrc, description, date, className, name, words, melody, listen, ...props } ) {
     return (
         <div className=' articleCard'>
             <img src={imgSrc} className='rounded-top article_img' />
-            <div className='p-3 w_bg rounded-bottom'>
-                <p className='article_date card_font'>{date}</p>
-                <p className='p-color card_font'>{description}</p>
-                <a href="#" className='readMore'>اقرأ المزيد </a>
+            <div className={`p-3 rounded-bottom ${className}`}>
+                {date && <p className='article_date card_font'>{date}</p>}
+                {name && <h5>{name}</h5>}
+                {description && <p className='p-color card_font'>{description}</p>}
+                {words && <p >كلمات <strong>{words}</strong></p>}
+                {melody && <p >الحان <strong>{melody}</strong></p>}
+                {!listen && <a href="#" className='readMore'>اقرأ المزيد </a>}
+                {
+                    listen &&
+                    <div>
+                        <SharedButton $varient='outline' className='d-block'>
+                            <i className="mx-2 bi bi-play-fill"></i>
+                            استمع الان
+                        </SharedButton>
+                    </div>
+                }
 
             </div>
         </div>
