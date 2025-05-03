@@ -8,7 +8,7 @@ export function SpecialArtist() {
     return (
         <>
 
-            <SharedSection className={`special_artist`} title={'الفنان المميز اليوم'}>
+            <SharedSection className={`special_artist`} title={'الفنان المميز اليوم'} titleFormat={'mb-5'}>
                 <Row>
                     <div className="col-md-6 p-0">
                         <img src={img1} alt="special artist" className='img-fluid' />

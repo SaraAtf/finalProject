@@ -5,7 +5,7 @@ import { Row } from 'react-bootstrap'
 import { articles } from '../models/articlesList'
 export function FinalArticles() {
     return (
-        <SharedSection title='المقالات الاخيره' className={'special_artist'}>
+        <SharedSection title='المقالات الاخيره' className={'special_artist'} titleFormat={'mb-5'}>
             <Row className='g-3'>
                 {articles.map( article =>
                 (

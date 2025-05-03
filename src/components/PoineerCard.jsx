@@ -1,6 +1,13 @@
+import { useNavigate } from 'react-router-dom'
 import { SharedButton } from '../styledComponents/SharedButton'
 import styles from '../styles/sepecialArtist.module.css'
-export function PoineerCard( { name, description, age, country, imgSrc, date, ...props } ) {
+export function PoineerCard( { name, description, age, country, imgSrc, date, englishName, ...props } ) {
+
+    const navigate = useNavigate();
+
+    const gotToArtistPage = () => {
+        navigate( `/artist?name=${englishName}` )
+    }
     return (
         <div className={`col-md-6 g-3`}>
             <div className={`p-4 ${styles.w_bg}`}>
@@ -14,7 +21,7 @@ export function PoineerCard( { name, description, age, country, imgSrc, date, ..
                 <span className={`${styles.badge} mx-1`}>{country}</span>
                 <span className={`${styles.badge} mx-1`}>{age}</span>
                 <p className={`mt-4 ${styles.artistInfo} p-color`}>{description}</p>
-                <SharedButton >
+                <SharedButton onClick={gotToArtistPage}>
                     <i className="mx-2 bi bi-person"></i>
                     تعرف عليه
                 </SharedButton>

@@ -13,6 +13,7 @@ export const poineer = [
 		country: "مصر",
 		date: "1975-1898",
 		imgSrc: img1,
+		englishName: "omKolthom",
 	},
 	{
 		id: 2,
@@ -23,6 +24,7 @@ export const poineer = [
 		country: "سوريا",
 		date: "1974-1917",
 		imgSrc: img2,
+		englishName: "farid",
 	},
 	{
 		id: 3,
@@ -33,6 +35,7 @@ export const poineer = [
 		country: "مصر ",
 		date: "1991-1910",
 		imgSrc: img3,
+		englishName: "mohamed",
 	},
 	{
 		id: 4,
@@ -43,5 +46,6 @@ export const poineer = [
 		country: "مصر ",
 		date: "1977-1992",
 		imgSrc: img4,
+		englishName: "abdelhalim",
 	},
 ];

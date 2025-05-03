@@ -6,7 +6,7 @@ import { poineer } from '../models/pioneers'
 
 export function Pioneers() {
     return (
-        <SharedSection className={`special_artist`} title={`الرواد`} titleFormat={'text-center'}>
+        <SharedSection className={`special_artist`} title={`الرواد`} titleFormat={'mb-5 text-center'}>
             <Row className='g-1'>
 
                 {poineer.map( poineer => (

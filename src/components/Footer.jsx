@@ -2,7 +2,7 @@ import { Row } from 'react-bootstrap'
 import { SharedSection } from '../shared/SharedSection'
 export function Footer() {
     return (
-        <SharedSection className={`footer text-light`}>
+        <SharedSection className={`footer text-light`} titleFormat={'mb-5'}>
 
             <Row className='g-5'>
                 <div className="col-md-4">
