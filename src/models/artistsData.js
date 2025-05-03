@@ -14,6 +14,18 @@ import f3 from "../assets/images/slider/30.jpg";
 import f4 from "../assets/images/slider/31.jpeg";
 import f5 from "../assets/images/slider/32.jpg";
 import f6 from "../assets/images/slider/33.jpg";
+import m1 from "../assets/images/slider/3.jpg";
+import m2 from "../assets/images/slider/40.jpg";
+import m3 from "../assets/images/slider/41.webp";
+import m4 from "../assets/images/slider/42.jpg";
+import m5 from "../assets/images/slider/43.jpg";
+import m6 from "../assets/images/slider/44.jpeg";
+import a1 from "../assets/images/slider/4.webp";
+import a2 from "../assets/images/slider/5.jpg";
+import a3 from "../assets/images/slider/6.jpeg";
+import a4 from "../assets/images/slider/50.webp";
+import a5 from "../assets/images/slider/51.webp";
+import a6 from "../assets/images/slider/52.jpg";
 
 export const artistsData = [
 	{
@@ -35,42 +47,42 @@ export const artistsData = [
 				name: "صافينى مره",
 				words: "سمير محجوب ",
 				melody: "محمد الموجى",
-				imgSrc: "",
+				imgSrc: a1,
 			},
 			{
 				id: 2,
 				name: "احنا كنا فين",
 				words: "حسين السيد",
 				melody: "منير مراد",
-				imgSrc: "",
+				imgSrc: a2,
 			},
 			{
 				id: 3,
 				name: "على قد الشوق",
 				words: "محمد على احمد",
 				melody: "كمال الطويل",
-				imgSrc: "",
+				imgSrc: a3,
 			},
 			{
 				id: 4,
 				name: "توبه",
 				words: "حسين السيد",
 				melody: "محمد عبد الوهاب",
-				imgSrc: "",
+				imgSrc: a4,
 			},
 			{
 				id: 5,
 				name: "ياخلى القلب",
 				words: "مرسى جميل عزيز",
 				melody: "محمد عبد الوهاب",
-				imgSrc: "",
+				imgSrc: a5,
 			},
 			{
 				id: 6,
 				name: "موعود",
 				words: "محمد حمزه",
 				melody: "بليغ حمدى",
-				imgSrc: "",
+				imgSrc: a6,
 			},
 		],
 	},
@@ -151,42 +163,42 @@ export const artistsData = [
 				name: "ياجاره الوادى",
 				words: "احمد شوقى",
 				melody: "محمد عبد الوهاب",
-				imgSrcr: "",
+				imgSrc: m1,
 			},
 			{
 				id: 2,
 				name: "خايف اقول اللى فى قلبى",
 				words: "احمد عبد المجيد",
 				melody: "محمد عبد الوهاب",
-				imgSrc: "",
+				imgSrc: m2,
 			},
 			{
 				id: 3,
 				name: "كلنا نحب القمر",
 				words: "احمد عبد المجيد",
 				melody: "محمد عبد الوهاب",
-				imgSrc: "",
+				imgSrc: m3,
 			},
 			{
 				id: 4,
 				name: "امتى الزمان يسمح ياجميل",
 				words: "امين عزت الهجين",
 				melody: "محمد عبدالوهاب",
-				imgSrc: "",
+				imgSrc: m4,
 			},
 			{
 				id: 5,
 				name: "محلاها عيشه الفلاح",
 				words: "بيرم التونسى",
 				melody: "محمد  عبد الوهاب",
-				imgSrc: "",
+				imgSrc: m5,
 			},
 			{
 				id: 6,
 				name: "6",
 				words: "اللى انكتب على الجبين",
 				melody: "ابراهيم عبد الوهاب",
-				imgSrc: "",
+				imgSrc: m6,
 			},
 		],
 	},
