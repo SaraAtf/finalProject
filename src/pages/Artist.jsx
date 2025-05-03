@@ -55,7 +55,7 @@ export function Artist() {
                             </tbody>
                         </Table>
                     </div>
-                    <div className="col-sm-4" text-center>
+                    <div className="col-sm-4">
                         <img src={artist.img} style={{ maxHeight: '300px', borderRadius: '5px' }} alt="artist image" className='img-fluid' />
                     </div>
                 </Row>

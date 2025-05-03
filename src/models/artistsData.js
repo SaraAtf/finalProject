@@ -8,6 +8,13 @@ import w3 from "../assets/images/slider/8.jpg";
 import w4 from "../assets/images/slider/20.jpeg";
 import w5 from "../assets/images/slider/21.jpg";
 import w6 from "../assets/images/slider/22.jpg";
+import f1 from "../assets/images/slider/2.jpg";
+import f2 from "../assets/images/slider/9.jpg";
+import f3 from "../assets/images/slider/30.jpg";
+import f4 from "../assets/images/slider/31.jpeg";
+import f5 from "../assets/images/slider/32.jpg";
+import f6 from "../assets/images/slider/33.jpg";
+
 export const artistsData = [
 	{
 		id: 1,
@@ -86,42 +93,42 @@ export const artistsData = [
 				name: "اول همسه",
 				words: "مامون الشناوى",
 				melody: "فريد الاطرش",
-				imgSrcr: "",
+				imgSrc: f1,
 			},
 			{
 				id: 2,
 				name: "حكايه غرامى",
 				words: "فتحى قوره",
 				melody: "فريد الاطرش",
-				imgSrc: "",
+				imgSrc: f2,
 			},
 			{
 				id: 3,
 				name: "جميل جمال",
 				words: "بيرم التونسى",
 				melody: "فريد الاطرش",
-				imgSrc: "",
+				imgSrc: f3,
 			},
 			{
 				id: 4,
 				name: "يازهره فى خيالى",
 				words: "مامون الشناوى",
 				melody: "فريد الاطرش",
-				imgSrc: "",
+				imgSrc: f4,
 			},
 			{
 				id: 5,
 				name: "بساط الريح",
 				words: "احمد رامى",
 				melody: "فريد الاطرش",
-				imgSrc: "",
+				imgSrc: f5,
 			},
 			{
 				id: 6,
 				name: "احبك انت",
 				words: "مامون الشناوى",
 				melody: "فريد الاطرش",
-				imgSrc: "",
+				imgSrc: f6,
 			},
 		],
 	},
