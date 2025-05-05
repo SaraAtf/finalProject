@@ -1,13 +1,21 @@
 import { useNavigate } from 'react-router-dom'
 import { SharedButton } from '../styledComponents/SharedButton'
 import styles from '../styles/sepecialArtist.module.css'
-export function PoineerCard( { name, description, age, country, imgSrc, date, englishName, ...props } ) {
+import { useState } from 'react'
+import { VideoModal } from './VideoModal'
 
+export function PoineerCard( { name, description, age, country, imgSrc, date, englishName, videoId, ...props } ) {
     const navigate = useNavigate();
+    const [ showVideo, setShowVideo ] = useState( false );
 
     const gotToArtistPage = () => {
         navigate( `/artist?name=${englishName}` )
     }
+
+    const handleListenClick = () => {
+        setShowVideo( true );
+    }
+
     return (
         <div className={`col-md-6 g-3`}>
             <div className={`p-4 ${styles.w_bg}`}>
@@ -25,12 +33,16 @@ export function PoineerCard( { name, description, age, country, imgSrc, date, en
                     <i className="mx-2 bi bi-person"></i>
                     تعرف عليه
                 </SharedButton>
-                <SharedButton $varient='outline'>
+                <SharedButton $varient='outline' onClick={handleListenClick}>
                     <i className="mx-2 bi bi-play-fill"></i>
                     استمع الان
                 </SharedButton>
             </div>
+            <VideoModal
+                show={showVideo}
+                onHide={() => setShowVideo( false )}
+                videoId={videoId}
+            />
         </div>
-
     )
 }

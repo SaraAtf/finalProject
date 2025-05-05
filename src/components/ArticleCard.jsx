@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { SharedButton } from '../styledComponents/SharedButton'
+import { VideoModal } from './VideoModal'
 
-export function ArticleCard( { imgSrc, description, date, className, name, words, melody, listen, ...props } ) {
+export function ArticleCard( { imgSrc, description, date, className, name, words, melody, listen, videoId, ...props } ) {
+    const [ showVideo, setShowVideo ] = useState( false );
+
+    const handleListenClick = () => {
+        setShowVideo( true );
+    }
+
     return (
         <div className=' articleCard'>
             <img src={imgSrc} className='rounded-top article_img' />
@@ -15,14 +22,18 @@ export function ArticleCard( { imgSrc, description, date, className, name, words
                 {
                     listen &&
                     <div>
-                        <SharedButton $varient='outline' className='d-block'>
+                        <SharedButton $varient='outline' className='d-block' onClick={handleListenClick}>
                             <i className="mx-2 bi bi-play-fill"></i>
                             استمع الان
                         </SharedButton>
                     </div>
                 }
-
             </div>
+            <VideoModal
+                show={showVideo}
+                onHide={() => setShowVideo( false )}
+                videoId={videoId}
+            />
         </div>
     )
 }

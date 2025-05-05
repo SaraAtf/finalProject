@@ -14,6 +14,7 @@ export const poineer = [
 		date: "1975-1898",
 		imgSrc: img1,
 		englishName: "omKolthom",
+		videoId: "AbU6Bg-6y5o",
 	},
 	{
 		id: 2,
@@ -25,6 +26,7 @@ export const poineer = [
 		date: "1974-1917",
 		imgSrc: img2,
 		englishName: "farid",
+		videoId: "nNltgC-HmYc",
 	},
 	{
 		id: 3,
@@ -36,6 +38,7 @@ export const poineer = [
 		date: "1991-1910",
 		imgSrc: img3,
 		englishName: "mohamed",
+		videoId: "Uf7MNnski8E",
 	},
 	{
 		id: 4,
@@ -47,5 +50,6 @@ export const poineer = [
 		date: "1977-1992",
 		imgSrc: img4,
 		englishName: "abdelhalim",
+		videoId: "KgyzKTrQDs0",
 	},
 ];

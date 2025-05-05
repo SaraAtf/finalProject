@@ -39,7 +39,7 @@ export const artistsData = [
 		deathLocation: "البساتين",
 		home: "جمهوريه مصر العربيه",
 		school: "معهد الموسيقى العربيه",
-		life: "ولد عبد الحليم علي إسماعيل شبانة في 21 يونيو 1929 في قرية الحلوات التابعة لمركز الإبراهيمية في محافظة الشرقية، وهو الابن الأصغر بين أربعة إخوة هم إسماعيل ومحمد وعليا. توفيت والدته بعد ولادته بأيام وقبل أن يتم عبد الحليم عامه الأول توفي والده ليعيش اليتم من جهة الأب كما عاشه من جهة الأم من قبل ليعيش بعدها في بيت خاله الحاج متولي عماشة. كان يلعب مع أولاد عمه في ترعة القرية، ومنها انتقل إليه مرض البلهارسيا الذي دمّر حياته. ولقد قال مرة أنا ابن القدر، حيث أجرى خلال حياته واحد وستين عملية جراحية.[9] كان حليم الابن الرابع وأكبر إخوته هو إسماعيل شبانة الذي كان مطرباً ومدرساً للموسيقى في وزارة التربية. التحق حليم، بعدما نضج قليلا في كتاب الشيخ أحمد؛ ومنذ دخول العندليب الأسمر للمدرسة تجلّى حبه العظيم للموسيقى حتى أصبح رئيسا لفرقة الأناشيد في مدرسته. ومن حينها وهو يحاول الدخول لمجال الغناء لشدة ولعه به.",
+		life: "ولد عبد الحليم علي إسماعيل شبانة في 21 يونيو 1929 في قرية الحلوات التابعة بمركز الإبراهيمية بمحافظة الشرقية، وهو الابن الأصغر بين أربعة إخوة هم إسماعيل ومحمد وعليا. توفيت والدته بعد ولادته بأيام وقبل أن يتم عبد الحليم عامه الأول توفي والده ليعيش اليتم من جهة الأب كما عاشه من جهة الأم من قبل ليعيش بعدها في بيت خاله الحاج متولي عماشة. كان يلعب مع أولاد عمه في ترعة القرية، ومنها انتقل إليه مرض البلهارسيا الذي دمّر حياته. ولقد قال مرة أنا ابن القدر، حيث أجرى خلال حياته واحد وستين عملية جراحية.[9] كان حليم الابن الرابع وأكبر إخوته هو إسماعيل شبانة ذي كان مطرباً ومدرساً للموسيقى في وزارة التربية. التحق حليم، بعدما نضج قليلا في كتاب الشيخ أحمد؛ ومنذ دخول العندليب الأسمر للمدرسة تجلّى حبه العظيم للموسيقى حتى أصبح رئيسا لفرقة الأناشيد في مدرسته. ومن حينها وهو يحاول الدخول لمجال الغناء لشدة ولعه به.",
 		englishName: "abdelhalim",
 		works: [
 			{
@@ -48,6 +48,7 @@ export const artistsData = [
 				words: "سمير محجوب ",
 				melody: "محمد الموجى",
 				imgSrc: a1,
+				videoId: "I_jfZgOBMXE",
 			},
 			{
 				id: 2,
@@ -55,6 +56,7 @@ export const artistsData = [
 				words: "حسين السيد",
 				melody: "منير مراد",
 				imgSrc: a2,
+				videoId: "bAXtb_fhlTg",
 			},
 			{
 				id: 3,
@@ -62,6 +64,7 @@ export const artistsData = [
 				words: "محمد على احمد",
 				melody: "كمال الطويل",
 				imgSrc: a3,
+				videoId: "sUwcBzZVIJ0",
 			},
 			{
 				id: 4,
@@ -69,6 +72,7 @@ export const artistsData = [
 				words: "حسين السيد",
 				melody: "محمد عبد الوهاب",
 				imgSrc: a4,
+				videoId: "agsMg0SOGqM",
 			},
 			{
 				id: 5,
@@ -76,6 +80,7 @@ export const artistsData = [
 				words: "مرسى جميل عزيز",
 				melody: "محمد عبد الوهاب",
 				imgSrc: a5,
+				videoId: "xcyFr9Z-nps",
 			},
 			{
 				id: 6,
@@ -83,6 +88,7 @@ export const artistsData = [
 				words: "محمد حمزه",
 				melody: "بليغ حمدى",
 				imgSrc: a6,
+				videoId: "aQuX5vXYVBM",
 			},
 		],
 	},
@@ -106,6 +112,7 @@ export const artistsData = [
 				words: "مامون الشناوى",
 				melody: "فريد الاطرش",
 				imgSrc: f1,
+				videoId: "CZ31w3-Y4n0",
 			},
 			{
 				id: 2,
@@ -113,6 +120,7 @@ export const artistsData = [
 				words: "فتحى قوره",
 				melody: "فريد الاطرش",
 				imgSrc: f2,
+				videoId: "ZWTK2y_ySjQ",
 			},
 			{
 				id: 3,
@@ -120,6 +128,7 @@ export const artistsData = [
 				words: "بيرم التونسى",
 				melody: "فريد الاطرش",
 				imgSrc: f3,
+				videoId: "80JeLAfYY2k",
 			},
 			{
 				id: 4,
@@ -127,6 +136,7 @@ export const artistsData = [
 				words: "مامون الشناوى",
 				melody: "فريد الاطرش",
 				imgSrc: f4,
+				videoId: "O-bSQgyeVrQ",
 			},
 			{
 				id: 5,
@@ -134,13 +144,15 @@ export const artistsData = [
 				words: "احمد رامى",
 				melody: "فريد الاطرش",
 				imgSrc: f5,
+				videoId: "qpbFRfKqsrM",
 			},
 			{
 				id: 6,
-				name: "احبك انت",
+				name: "بحبك انت",
 				words: "مامون الشناوى",
 				melody: "فريد الاطرش",
 				imgSrc: f6,
+				videoId: "qxPxWHbVn50",
 			},
 		],
 	},
@@ -164,6 +176,7 @@ export const artistsData = [
 				words: "احمد شوقى",
 				melody: "محمد عبد الوهاب",
 				imgSrc: m1,
+				videoId: "2P8sH7U8Qbg",
 			},
 			{
 				id: 2,
@@ -171,6 +184,7 @@ export const artistsData = [
 				words: "احمد عبد المجيد",
 				melody: "محمد عبد الوهاب",
 				imgSrc: m2,
+				videoId: "74Lx06_oopY",
 			},
 			{
 				id: 3,
@@ -178,6 +192,7 @@ export const artistsData = [
 				words: "احمد عبد المجيد",
 				melody: "محمد عبد الوهاب",
 				imgSrc: m3,
+				videoId: "50sPNeSD5xQ",
 			},
 			{
 				id: 4,
@@ -185,6 +200,7 @@ export const artistsData = [
 				words: "امين عزت الهجين",
 				melody: "محمد عبدالوهاب",
 				imgSrc: m4,
+				videoId: "2l3FrclLMOY",
 			},
 			{
 				id: 5,
@@ -192,6 +208,7 @@ export const artistsData = [
 				words: "بيرم التونسى",
 				melody: "محمد  عبد الوهاب",
 				imgSrc: m5,
+				videoId: "0gfob_QFgrc",
 			},
 			{
 				id: 6,
@@ -199,6 +216,7 @@ export const artistsData = [
 				words: "اللى انكتب على الجبين",
 				melody: "ابراهيم عبد الوهاب",
 				imgSrc: m6,
+				videoId: "Uf7MNnski8E",
 			},
 		],
 	},
@@ -222,6 +240,7 @@ export const artistsData = [
 				words: "ابراهيم ناجى",
 				melody: "رياض السنباطى",
 				imgSrc: w1,
+				videoId: "5z8LvG5tfOE",
 			},
 			{
 				id: 2,
@@ -229,6 +248,7 @@ export const artistsData = [
 				words: "احمد شفيق كامل",
 				melody: "محمد عبد الوهاب",
 				imgSrc: w2,
+				videoId: "1wBvuZVE7FI",
 			},
 			{
 				id: 3,
@@ -236,6 +256,7 @@ export const artistsData = [
 				words: "احمد شفيق كامل",
 				melody: "محمد عبد الوهاب",
 				imgSrc: w3,
+				videoId: "HYzPsh83i0s",
 			},
 			{
 				id: 4,
@@ -243,6 +264,7 @@ export const artistsData = [
 				words: "عبدالوهاب محمد",
 				melody: "محمد عبدالوهاب",
 				imgSrc: w4,
+				videoId: "oDrPsZxk-WM",
 			},
 			{
 				id: 5,
@@ -250,6 +272,7 @@ export const artistsData = [
 				words: "مرسى جميل عزيز",
 				melody: "بليغ حمدى",
 				imgSrc: w5,
+				videoId: "5jVnLbdqR6U",
 			},
 			{
 				id: 6,
@@ -257,6 +280,7 @@ export const artistsData = [
 				words: "احمد رامى",
 				melody: "رياض السنباطى",
 				imgSrc: w6,
+				videoId: "auwotS7PpaU",
 			},
 		],
 	},
