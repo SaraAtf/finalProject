@@ -1,0 +1,164 @@
+.articleCard {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.articleCard:hover {
+	transform: translateY(-5px);
+}
+
+.articleImage {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.articleTitle {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
+.articleAuthor {
+	color: #666;
+	font-size: 0.9rem;
+}
+
+.articleDate {
+	color: #888;
+	font-size: 0.9rem;
+}
+
+.articleText {
+	color: #555;
+	line-height: 1.6;
+	margin-bottom: 1.5rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.readMoreBtn {
+	background-color: var(--main-color);
+	color: white;
+	border: none;
+	padding: 0.5rem 1.5rem;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.readMoreBtn:hover {
+	background-color: #0056b3;
+}
+
+.categoryBtn {
+	background-color: #f8f9fa;
+	border: 1px solid #dee2e6;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.categoryBtn:hover {
+	background-color: #e9ecef;
+}
+
+.categoryBtn.active {
+	background-color: var(--main-color);
+	color: white;
+	border-color: #007bff;
+}
+
+.modal {
+	position: relative;
+}
+
+.modalCloseBtn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	z-index: 1;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modalCloseBtn:hover {
+	background-color: #fff;
+	transform: scale(1.1);
+}
+
+.modalCloseBtn i {
+	font-size: 1.2rem;
+	color: #333;
+}
+
+.modalContentWrapper {
+	position: relative;
+	background-color: #fff;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.modalImage {
+	width: 100%;
+	max-height: 400px;
+	object-fit: cover;
+}
+
+.modalTextContent {
+	padding: 2rem;
+}
+
+.modalTitle {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 1.5rem;
+}
+
+.modalAuthor {
+	color: #666;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.modalDate {
+	color: #888;
+	font-size: 1.1rem;
+}
+
+.modalContent {
+	color: #555;
+	line-height: 1.8;
+	font-size: 1.1rem;
+	white-space: pre-line;
+	margin-top: 1.5rem;
+}
+
+.modal :global(.modal-content) {
+	border: none;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modal :global(.modal-dialog) {
+	max-width: 800px;
+}
+
+.modal :global(.modal-body) {
+	padding: 0;
+}

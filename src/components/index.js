@@ -7,6 +7,7 @@ import { ArtistInfoCard } from "./ArtistInfoCard";
 import { FinalArticles } from "./FinalArticles";
 import { ArticleCard } from "./ArticleCard";
 import { PoineerCard } from "./PoineerCard";
+import { BackToTop } from "./BackToTop";
 
 export {
 	Header,
@@ -18,4 +19,5 @@ export {
 	FinalArticles,
 	ArticleCard,
 	PoineerCard,
+	BackToTop,
 };
