@@ -102,8 +102,33 @@ export function Contact() {
         <SharedSection title="اتصل بنا" className="contact-page">
             <Container>
                 <Row className="g-5">
+                    {/* Team Members Section */}
+                    <Col md={12}>
+                        <div className={styles.teamSection}>
+                            <h3 className={styles.sectionTitle}>فريق العمل</h3>
+                            <div className={styles.teamMembers}>
+                                <div className="row">
+                                    {teamMembers.map( member => (
+                                        <Col md={6} key={member.id}>
+                                            <div key={member.id} className={styles.teamMember}>
+                                                <div className={styles.memberImage}>
+                                                    <img src={member.image} alt={member.name} />
+                                                </div>
+                                                <div className={styles.memberInfo}>
+                                                    <h4>{member.name}</h4>
+                                                    <p className={styles.role}>{member.role}</p>
+                                                    <p className={styles.quote}>{member.quote}</p>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    ) )}
+                                </div>
+
+                            </div>
+                        </div>
+                    </Col>
                     {/* Contact Form Section */}
-                    <Col md={6}>
+                    <Col md={12}>
                         <div className={styles.contactForm}>
                             <h3 className={styles.sectionTitle}>أرسل لنا رسالة</h3>
                             <Form onSubmit={handleSubmit}>
@@ -137,26 +162,7 @@ export function Contact() {
                         </div>
                     </Col>
 
-                    {/* Team Members Section */}
-                    <Col md={6}>
-                        <div className={styles.teamSection}>
-                            <h3 className={styles.sectionTitle}>فريق العمل</h3>
-                            <div className={styles.teamMembers}>
-                                {teamMembers.map( member => (
-                                    <div key={member.id} className={styles.teamMember}>
-                                        <div className={styles.memberImage}>
-                                            <img src={member.image} alt={member.name} />
-                                        </div>
-                                        <div className={styles.memberInfo}>
-                                            <h4>{member.name}</h4>
-                                            <p className={styles.role}>{member.role}</p>
-                                            <p className={styles.quote}>{member.quote}</p>
-                                        </div>
-                                    </div>
-                                ) )}
-                            </div>
-                        </div>
-                    </Col>
+
                 </Row>
             </Container>
         </SharedSection>
