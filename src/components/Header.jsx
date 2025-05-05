@@ -11,7 +11,7 @@ export function Header() {
                     <NavLink className={( { isActive } ) => isActive ? 'nav-link isActive' : 'nav-link'} to="/">الرئيسيه</NavLink>
                     <NavLink className={( { isActive } ) => isActive ? 'nav-link isActive' : 'nav-link'} to="/articles">المدونه</NavLink>
                     <NavLink className={( { isActive } ) => isActive ? 'nav-link isActive' : 'nav-link'} to="/pioneers">الرواد</NavLink>
-                    <NavLink className={( { isActive } ) => isActive ? 'nav-link isActive' : 'nav-link'} to="/contact">اتصل بنا</NavLink>
+                    <NavLink className={( { isActive } ) => isActive ? 'nav-link isActive' : 'nav-link'} to="/contact-us">اتصل بنا</NavLink>
                 </Nav>
                 <div></div>
                 {/* <i className="bi bi-search"></i> */}
